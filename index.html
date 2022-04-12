@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../9일차/css/index.css" rel="stylesheet">
-    <link rel="icon" type="image/png" href="../9일차/img/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="../9일차/img/favicon-16x16.png" sizes="16x16" />
+    <link href="../HTML-TEST/css/index.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../HTML-TEST/img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../HTML-TEST/img/favicon-16x16.png" sizes="16x16" />
 
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <div class="f-nanum">
@@ -21,12 +23,12 @@
             </nav>
         </div>
     </header>
-    <main> 
+    <main>
         <div class="visual">
-            <img src="../9일차/img/img_spot.jpg" alt="">
+            <img src="../HTML-TEST/img/img_spot.jpg" alt="">
             <article>
                 <h2 class="f-nanum">SUMMER TRENDS</h2>
-                <figure><img src="../9일차/img/img_trands.jpg" alt="">
+                <figure><img src="../HTML-TEST/img/img_trands.jpg" alt="">
                     <figcaption>
                         <p>YOU WANT TO ROCK THIS LOOK?</p>
                         <a href="#" class="btn">HERE</a>
@@ -36,11 +38,50 @@
         </div>
         <article class="vdo">
             <h2>video</h2>
-            <video controls autoplay loop poster="../9일차/img/img_trands.jpg">
-                <source src="../1일차/img/puppies.mp4" type="video/mp4">
+            <video controls autoplay loop poster="../HTML-TEST/img/img_trands.jpg">
+                <source src="../HTML-TEST/img/puppies.mp4" type="video/mp4">
             </video>
         </article>
+
+        <article>
+            <caption>table</caption>
+            <table border="2" width="500">
+                <thead>
+                    <tr>
+                        <th>제목</th>
+                        <th>제목</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>내용</td>
+                        <td>내용</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="20">*저작권은 wbc에 있습니다</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <table border="5" cellpadding="10">
+                <Tr>
+                    <td colspan="3">01 02 03</td>
+                </Tr>
+                <Tr>
+                    <td rowspan="2">04 07</td>
+                    <td colspan="2">05 06</td>
+                </Tr>
+                <Tr>
+                    <td>08</td>
+                    <td>09</td>
+                </Tr>
+            </table>
+        </article>
+        <!-- 코드 전체선택하고 alt+shift+f누르면 코드 이쁘게 정렬됨 -->
     </main>
     <footer> </footer>
 </body>
+
 </html>
